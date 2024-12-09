@@ -1,0 +1,46 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+<!--</ConstraintLayout>-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="294dp"
+        android:contentDescription="Displayed Image"
+        android:src="@drawable/image1" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@color/pink"
+        android:text="Callisia" />
+
+    <!-- Button 2 -->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="225dp"
+        android:layout_height="60dp"
+        android:text="Monstera"
+        android:background="@color/sage"/>
+
+    <!-- Button 3 -->
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="Pothos"
+        android:background="@color/forest"/>
+
+
+</LinearLayout>

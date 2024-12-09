@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Project3" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="colorPrimary">#ffffff</item>
+        <item name="colorPrimaryVariant">#bdd6bd</item>
+        <item name="colorOnPrimary">#526d52</item>
+    </style>
+
+
+</resources>
